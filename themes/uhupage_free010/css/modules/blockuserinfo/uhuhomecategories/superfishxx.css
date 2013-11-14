@@ -1,0 +1,35 @@
+/*** Menu ***/
+    #header_right .menu {
+        /*margin:0;
+        position:absolute;
+        left:0px;
+        top:138px;
+        width: 994px; height:25px; display:inline*/
+		margin: 0;
+	position: absolute;
+	left: 0px;
+	top: 138px;
+	width: 994px;
+	height: 25px;
+	display: inline;
+    }
+    #header_right .menu{ padding:0 0 0 0px;}
+    
+    /* common styling */
+    #header_right .menu ul li a, #header_right .menu ul li a:visited {display:block; text-decoration:none; color:#000;width:164px; height:25px; text-align:center; color:#AAAAAA; background:#333333; line-height:25px; font-size:12px; overflow:hidden;}
+    #header_right .menu ul {padding:0; margin:0;list-style-type: none; }
+    #header_right .menu ul li {float:left; margin-right:2px; position:relative; z-index:5; width: 164px;}
+    #header_right .menu ul li ul {display: none;}
+    #header_right .menu ul li.long_item {width:164px;}
+    #header_right .menu ul li.last_item {margin-right:0px;}
+    
+    /* specific to non IE browsers */
+    #header_right .menu ul li:hover a {color:#FFFFFF; background:#55BE47 }
+    #header_right .menu ul li:hover ul {display:block; position:absolute; top:25px; left:0; background:#FCFCFC; width:154px; padding:0 5px }
+    #header_right .menu ul li:hover ul li a.hide {background:#000000; color:#fff;}
+    #header_right .menu ul li:hover ul li:hover a.hide {background:#FFFFFF; color:#000;}
+    #header_right .menu ul li:hover ul li ul {display: none;}
+    #header_right .menu ul li:hover ul li a {display:block; text-align:left; padding:0 10px 0 20px; width:124px; background:#FCFCFC; color:#336633; border-bottom:1px dotted #DDDDDD }
+    #header_right .menu ul li:hover ul li a:hover { color:#55BE47 }
+    #header_right .menu ul li:hover ul li:hover ul {display:block; position:absolute; left:164px; top:0;}
+   #header_right .menu ul li:hover ul li:hover ul.left {left:-164px;}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>uhu_cu3er</name>
+	<displayName><![CDATA[Block Flash Advertising cu3er by uhupage]]></displayName>
+	<version><![CDATA[0.9]]></version>
+	<description><![CDATA[Adds a block to display an flash advertising pictures with small picture.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

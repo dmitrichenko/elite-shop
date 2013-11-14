@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>plnewproducts</name>
+            <displayName><![CDATA[New products With Ajax slide show]]></displayName>
+            <version><![CDATA[1]]></version>
+            <description><![CDATA[Show a block with ajax slide for new products.]]></description>
+            <author><![CDATA[PrestaLive]]></author>
+            <tab><![CDATA[front_office_features]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>watermark</name>
+            <displayName><![CDATA[Водяной знак]]></displayName>
+            <version><![CDATA[0.3]]></version>
+            <description><![CDATA[Защитите изображение водяным знаком.]]></description>
+            <author><![CDATA[PrestaShop]]></author>
+            <tab><![CDATA[administration]]></tab>
+	<confirmUninstall>Хотите удалить?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
